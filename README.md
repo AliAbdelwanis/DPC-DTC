@@ -13,14 +13,14 @@ This project implements a learning-based control framework for PMSM torque track
 - **Open-Loop Optimal Control (OCP):** CasADi-based benchmark for comparing policy performance
 
 ## Installation
-Download the current state of the [exciting_environments_mine](https://github.com/AliAbdelwanis/exciting_environments_mine) repository, e.g.:
+Download the current state of the [exciting-environments](https://github.com/AliAbdelwanis/exciting-environments) repository, e.g.:
 ```
-git clone https://github.com/AliAbdelwanis/exciting_environments_mine
+git clone https://github.com/AliAbdelwanis/exciting-environments.git
 ```
 and install it in your python environment by moving to the downloaded folder and running ```pip install .```. Afterwards, download the source code of this repo, e.g.:
 
 ```
-git clone https://github.com/AliAbdelwanis/meta-DPC-DTC-
+git clone https://github.com/AliAbdelwanis/DPC-DTC.git
 ```
 ## Project Structure
 
@@ -127,7 +127,7 @@ If you use this codebase in your research, please cite:
   Including Overmodulation Region},
   author={Abdelwanis, Ali and Schweins, Oliver and Meyer, Marvin and Wallscheid, Oliver},
   year={2026},
-  url={https://github.com/AliAbdelwanis/DPC-DTC}
+  url={https://github.com/AliAbdelwanis/DPC-DTC.git}
 }
 ```
 
