@@ -1,16 +1,16 @@
 # DPC-DTC: Neural Network-Based Differentiable Predictive Control for PMSM Torque Tracking
 
-A comprehensive [Jax](https://github.com/google/jax)-based implementation of Differentiable Predictive Control (DPC) for Permanent Magnet Synchronous Motors (PMSM), featuring neural network policy learning and comparison with optimal control solutions.
+A comprehensive [Jax](https://github.com/google/jax)-based implementation of differentiable predictive control (DPC) for permanent magnet synchronous motors (PMSM), featuring neural network policy learning and comparison with optimal control solutions.
 
 ## Overview
 
 This project implements a learning-based control framework for PMSM torque tracking using:
 
-- **Differentiable Predictive Control (DPC):** Real-time predictive control without solving complex optimization at runtime
-- **Neural Network Policy:** Multi-layer perceptron trained via gradient descent to learn near-optimal control behavior
-- **JAX Framework:** High-performance automatic differentiation and JIT compilation for efficient training and inference
-- **Analytical Reference Generation:** Constrained optimization using Lagrange multipliers for optimal current references
-- **Open-Loop Optimal Control (OCP):** CasADi-based benchmark for comparing policy performance
+- **Differentiable predictive control (DPC):** Real-time predictive control without solving complex optimization at runtime
+- **Neural network policy:** Multi-layer perceptron trained via gradient descent to learn near-optimal control behavior
+- **JAX framework:** High-performance automatic differentiation and JIT compilation for efficient training and inference
+- **Analytical reference generation:** Constrained optimization using Lagrange multipliers for optimal current references
+- **Open-loop optimal control (OCP):** CasADi-based benchmark for comparing policy performance
 
 ## Installation
 Download the current state of the [exciting-environments](https://github.com/AliAbdelwanis/exciting-environments) repository, e.g.:
