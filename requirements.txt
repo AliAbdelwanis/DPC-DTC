@@ -1,0 +1,6 @@
+optuna==4.3.0
+pandas==2.2.3
+optax==0.2.3
+sympy==1.13.3
+casadi==3.7.2 
+jupyter
