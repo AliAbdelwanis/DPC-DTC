@@ -1,4 +1,4 @@
-# Meta-DPC-DTC: Neural Network-Based Differentiable Predictive Control for PMSM Torque Tracking
+# DPC-DTC: Neural Network-Based Differentiable Predictive Control for PMSM Torque Tracking
 
 A comprehensive [Jax](https://github.com/google/jax)-based implementation of Differentiable Predictive Control (DPC) for Permanent Magnet Synchronous Motors (PMSM), featuring neural network policy learning and comparison with optimal control solutions.
 
