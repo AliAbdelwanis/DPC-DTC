@@ -5,11 +5,11 @@ def set_plot_style(use_tex: bool = True) -> None:
     # =========================
     plt.rcParams.update({
         # Use LaTeX for all text
-        "text.usetex": use_tex,
+        "text.usetex": False,
         
         # Font family fallback
-        "font.family": "serif",
-        "font.serif": ["Times New Roman"],  # normal text fallback
+        #"font.family": "serif",
+        #"font.serif": ["Times New Roman"],  # normal text fallback
 
         # LaTeX preamble
         "text.latex.preamble": r"""
@@ -26,11 +26,11 @@ def set_plot_style(use_tex: bool = True) -> None:
         "lines.markersize": 15,
 
         # Font sizes
-        "axes.labelsize": 13,
-        "axes.titlesize": 13,
-        "xtick.labelsize": 13,
-        "ytick.labelsize": 13,
-        "legend.fontsize": 13,
+        "axes.labelsize": 11,
+        "axes.titlesize": 11,
+        "xtick.labelsize": 11,
+        "ytick.labelsize": 11,
+        "legend.fontsize": 11,
 
         # Ticks
         "xtick.direction": "in",

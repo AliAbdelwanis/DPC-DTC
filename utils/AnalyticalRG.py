@@ -150,8 +150,8 @@ def plot_intersection(values, mref, mdes, i_dq, Ref=True, ranges=[350, 250], fig
     ax.grid(True)
 
     # Axis labels
-    ax.set_xlabel(r"$i_\mathrm{q}$ in \si{\ampere}")
-    ax.set_ylabel(r"$i_\mathrm{d}$ in \si{\ampere}")
+    ax.set_xlabel(r"$i_\mathrm{q}$ in A")
+    ax.set_ylabel(r"$i_\mathrm{d}$ in A")
 
     # Move x-label slightly below zero
     ax.xaxis.set_label_coords(0.5, 1.1)  

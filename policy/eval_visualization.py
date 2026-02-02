@@ -262,9 +262,9 @@ def boxplot_error_by_bins(
             meanprops=dict(color='green')
         )
 
-        plt.xlabel(rf"{bin_type} reference (w.r.t. nominal {bin_type}) in \si{{\percent}}", fontsize=11)
-        plt.ylabel(rf"{features[j]} MAE in \si{{\percent}}", fontsize=11)
-        plt.title(rf"{features[j]} MAE across {bin_type.lower()} ranges", fontsize=11)
+        plt.xlabel(rf"{bin_type} reference (w.r.t. nominal {bin_type}) in %", fontsize=9)
+        plt.ylabel(rf"{features[j]} MAE in %", fontsize=9)
+        plt.title(rf"{features[j]} MAE across {bin_type.lower()} ranges", fontsize=9)
         plt.grid(True, linestyle='--', alpha=0.5)
 
         # Legend
@@ -274,13 +274,13 @@ def boxplot_error_by_bins(
             mlines.Line2D([], [], color='green', linewidth=2, label=r'Mean'),
         ]
         plt.legend(handles=legend_handles, loc='upper left', frameon=False, fontsize=9)
-        plt.tick_params(axis='x', labelsize=11)
-        plt.tick_params(axis='y', labelsize=11)
+        plt.tick_params(axis='x', labelsize=9)
+        plt.tick_params(axis='y', labelsize=9)
         plt.tight_layout()
         plt.show()
 
 
-def format_time_axis_ocp_comparison(ax, fontsize: int = 13, powerlimits: tuple = (-3, -3)):
+def format_time_axis_ocp_comparison(ax, fontsize: int = 9, powerlimits: tuple = (-3, -3)):
     """Format time axis for OCP comparison plots with scientific notation.
     
     Parameters
